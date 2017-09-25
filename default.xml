@@ -15,11 +15,11 @@
 
   <!-- SpicyVanilla Repositories -->
   <project path="manifest" name="manifest" remote="vanilla" revision="oreo" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanilla" revision="oreo" />
 
   <!-- AOSP Repositories -->
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
