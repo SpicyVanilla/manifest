@@ -40,6 +40,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="vanilla" revision="oreo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="vanilla" revision="oreo" />
   <project path="vendor/lge" name="vendor_lge" remote="vanilla" revision="oreo" />
+  <project path="vendor/vanilla" name="vendor_vanilla" remote="vanilla" revision="oreo" />
 
   <!-- AOSP Repositories -->
   <project path="art" name="platform/art" groups="pdk" />
