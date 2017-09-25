@@ -34,6 +34,7 @@
   <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" groups="device,bullhead,pdk" remote="vanilla" revision="oreo" />
   <project path="external/busybox" name="external_busybox" remote="vanilla" revision="oreo" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="vanilla" revision="oreo" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
 
   <!-- AOSP Repositories -->
   <project path="art" name="platform/art" groups="pdk" />
@@ -323,7 +324,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
