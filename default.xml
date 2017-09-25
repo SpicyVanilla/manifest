@@ -30,6 +30,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="vanilla" revision="oreo" />
 
   <!-- AOSP Repositories -->
   <project path="art" name="platform/art" groups="pdk" />
@@ -43,7 +44,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />  <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
