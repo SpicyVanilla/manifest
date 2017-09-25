@@ -5,11 +5,16 @@
            fetch="https://github.com/" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
+  <remote  name="vanilla"
+           fetch="https://github.com/SpicyVanilla/" />
 
   <default revision="refs/tags/android-8.1.0_r20"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
+
+  <!-- SpicyVanilla Repositories -->
+  <project path="manifest" name="manifest" remote="vanilla" revision="oreo" />
 
   <!-- AOSP Repositories -->
   <project path="art" name="platform/art" groups="pdk" />
