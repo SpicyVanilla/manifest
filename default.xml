@@ -39,6 +39,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="vanilla" revision="oreo" />
   <project path="system/core" name="system_core" groups="pdk" remote="vanilla" revision="oreo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="vanilla" revision="oreo" />
+  <project path="vendor/lge" name="vendor_lge" remote="vanilla" revision="oreo" />
 
   <!-- AOSP Repositories -->
   <project path="art" name="platform/art" groups="pdk" />
