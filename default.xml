@@ -37,6 +37,7 @@
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="vanilla" revision="oreo" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
   <project path="system/core" name="system_core" groups="pdk" remote="vanilla" revision="oreo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="vanilla" revision="oreo" />
   <project path="vendor/lge" name="vendor_lge" remote="vanilla" revision="oreo" />
@@ -467,7 +468,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
