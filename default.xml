@@ -37,6 +37,7 @@
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="vanilla" revision="oreo" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="vanilla" revision="oreo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="vanilla" revision="oreo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
