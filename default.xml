@@ -41,7 +41,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="vanilla" revision="oreo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="vanilla" revision="oreo" />
   <project path="system/core" name="system_core" groups="pdk" remote="vanilla" revision="oreo" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="vanilla" revision="oreo" /> 
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="vanilla" revision="oreo" /> 
   <project path="vendor/googleapps" name="vendor_googleapps" remote="vanilla" revision="oreo" />
   <project path="vendor/lge" name="vendor_lge" remote="vanilla" revision="oreo" />
   <project path="vendor/vanilla" name="vendor_vanilla" remote="vanilla" revision="oreo" />
